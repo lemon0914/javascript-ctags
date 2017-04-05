@@ -1,31 +1,17 @@
-# javascript-ctags
+# advanced-javascript-ctags
+
+Modified by npm project [javascript-ctags](https://npm.taobao.org/package/javascript-ctags).
 
 A command line tool for generating extended ctags files for Javascript.
-Currently it indexes all functions, both public and private.
 
-[![Build Status](https://secure.travis-ci.org/andersjanmyr/sleep-sort.png)](http://travis-ci.org/andersjanmyr/sleep-sort)
+It indexes all functions, objects, variables from all files in directory you choose.
 
-
-## Installation
-
-    $ npm install -g javascript-ctags
-
+Users who use vim to edit nodejs code may love it.
 
 ## Usage
 
-    $ bin/javascript-ctags -?
-    javascript-ctags [-?] [-t tagfile] [fileglob]
+    $ bin/javascript-ctags [-?] [-t tagfile] [directory]
     --help, -h, -?	 show this
     --tagfile, -t	 The generated tagfile (default tags)
-    fileglob	 A glob pattern (supports **/*.js), (default *.js)
-
-    fileglob defaults to: `*.js`, a common pattern is `lib/**/*.js`
-
-
-## TODO
-
-* Add properties to index?
-* Handle Node exports
-* Handle other export formats.
 
 
